@@ -1,3 +1,5 @@
+import imgQuadrado from "../../img/imgquadrado.png"
+
 export default function Conteudo() {
   return (
     <main>
@@ -5,7 +7,7 @@ export default function Conteudo() {
 
       <figure>
         <img
-          src="https://placehold.co/600x400/FFFFF0/FFFFFF/png"
+          src="https://placehold.co/600x400/005477/FFFFFF/png"
           alt="Imagem ilustrativa do conteúdo"
         />
 
@@ -13,6 +15,34 @@ export default function Conteudo() {
           Imagem utilizada para representar o conteúdo da aplicação.
         </figcaption>
       </figure>
+
+      <section>
+        <h2>Imagem com referencia externa</h2>
+        <figure>
+        <img 
+            src={imgQuadrado}
+            alt="Imagem ilustrativa do conteúdo"
+        />
+
+        <figcaption>
+          Imagem utilizada para representar o conteúdo da aplicação.
+        </figcaption>
+      </figure>
+      </section>
+
+      <section>
+        <h2>Imagem com referencia estatica</h2>
+        <figure>
+        <img 
+            src="/quadrado-2.png"
+            alt="Imagem ilustrativa do conteúdo"
+        />
+
+        <figcaption>
+          Imagem utilizada para representar o conteúdo da aplicação.
+        </figcaption>
+      </figure>
+      </section>
 
       <h2>Second Content</h2>
       <section>
