@@ -5,4 +5,5 @@ export default function App() {
     <main>
       <h1>Minha aplicação React</h1>
     </main>
+  );
 }
