@@ -1,7 +1,13 @@
-export default function Home() {
-    return (
-        <div>
-            <Cabecalho/>
-        </div>
+export default function Cabecalho() {
+    return(
+        <header>
+            <h1>
+                Meu boiler plate
+            </h1>
+        </header>
     )
 }
+    
+    
+
+    

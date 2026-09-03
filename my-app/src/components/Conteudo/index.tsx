@@ -1,8 +1,8 @@
-export default function(){
-    export default function Conteudo() {
+
+export default function Conteudo() {
         return (
             <main>
-                <h2>Conteúdo principal</h2>
+                <h2>Conteúdo aleatorio</h2>
 
                 <figure>
                     <img
@@ -14,7 +14,20 @@ export default function(){
                         Imagem utilizada para representar o conteúdo da aplicação.
                     </figcaption>
                 </figure>
-            </main>
-        )
-    }
+                    <h2>Conteúdo principal</h2>
+
+                    <figure>
+                        <img
+                            src="https://placehold.co/600x400/FFFFF0/FFFFFF/png"
+                            alt="Imagem ilustrativa do conteúdo"
+                        />
+
+                        <figcaption>
+                            Imagem utilizada para representar o conteúdo da aplicação.
+                        </figcaption>
+                    </figure>
+                </main>
+                )
 }
+        
+    
